@@ -334,7 +334,7 @@ considered the first practical computer that stored its programme in
 memory, instead of needing to be physically rewired.
 
 .Replica of the original EDSAC cite:[geniEnglishPhotoEDSAC2018]
-image::../figures/EDSAC_replica.jpg[replica of EDSAC I, 600, align="center"]
+image::figures/EDSAC_replica.jpg[replica of EDSAC I, 600, align="center"]
 
 In 1958 it was replaced by EDSAC II. While it shares the name with its
 predecessor, it used much faster magnetic memory and was the first
