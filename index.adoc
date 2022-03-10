@@ -8,8 +8,8 @@ Michaël Maex
 In the year 2000 the _Clay Mathematics Institute_ made a list of seven
 of the most important open problems in mathematics, which are known as
 the _Millenium Problems_. The Clay Institute will award a million
-dollars for a solution to each of these problems. So far only one
-problem - the Poincaré conjecture - has been solved. Two of the problems
+dollars for a solution to each of these problems. So far only one of the problems
+problem, the _Poincaré conjecture_ has been solved. Two of the problems
 on the list concern number theory, the _Riemann Hypothesis_ and the
 _Birch and Swinnerton-Dyer conjecture_. Both have deep connections to
 other parts of number theory and mathematics as a whole. I will explain
@@ -22,12 +22,13 @@ This text is a reworked version of a university assignment that I poured too man
 The research was very interesting and I stumbled across a seemingly forgotten but inspiring story of how Peter Swinnerton-Dyer did the best work of his career because of a unfortunate setback. 
 So it would be shame not to share it. 
 The intended audience is starting math students and scientists in others fields.
-So to get all the mathematica details some knowledge is required.
+So to get all the mathematical details some previous knowledge is required.
 However I do hope that there is enough history throughout the text to keep a general audience interested. 
 
 The main sources of this document are the talk by Manjul Bhargava cite:[manjulbhargavaWhatBirchSwinnertonDyer2016] and the problem description by the Clay Mathematics Institute cite:[wilesBIRCHSWINNERTONDYERCONJECTURE] for the mathematical details, chapter 14 of _Visions of Infinity_ by Ian Steward cite:[stewartVisionsInfinityGreat2014] and the biography of Diophantus cite:[DiophantusBiography] for historical facts. 
 When another source is used it, it will be indicated in the text. 
 
+'''
 
 
 [[sec:diophantine_equations]]
@@ -65,7 +66,7 @@ satisfy some polynomial relation
 ++++
 f(x, y) = 0.
 ++++
-For problem II,8 the polynomail would be latexmath:[f(x, y) = x^2 + y^2 - 16] and for IV,12 we need latexmath:[f(x, y)= x^3 + n x^3 - y^3]. 
+For problem II,8 the polynomail would be latexmath:[f(x, y) = x^2 + y^2 - 16] and for IV,12 we need latexmath:[f(x, y)= x^3 + n x^2 - y^3]. 
 
 Diophantus wanted exact solutions, and he looked for them in the
 only kind of numbers known at the time, (positive) integers and rational
@@ -130,12 +131,13 @@ In fact
 latexmath:[$\mathcal{C} ({\mathbb{C}})$] looks like a donut, but with
 maybe more holes cut out (see <<fig_genus-of-surface, figure 3>>). 
 footnote:[This is not entirely accurate. In fact we need to add a
-A donut with latexmath:[$0$] holes is a
-sphere.
 few missing points to latexmath:[$\mathcal{C} ({\mathbb{C}})$] that in
 some sense lay at the edge of latexmath:[${\mathbb{C}}^2$]. This is
 called _completing the curve_. We will see this again when we discuss
-elliptic curves.] The number of these holes is called the _genus_ of the
+elliptic curves.] 
+A donut with latexmath:[$0$] holes is a
+sphere.
+The number of these holes is called the _genus_ of the
 curve latexmath:[$\mathcal{C} $] and this is usually denoted by
 latexmath:[$g$].
 
@@ -178,7 +180,7 @@ mathematics, in number theory, physics, cryptography and more.
 Contrary to what the name suggests, elliptic curves *do not* look like ellipses!
 We usually denote elliptic curves by latexmath:[$\mathcal{E} $] instead of
 latexmath:[$\mathcal{C} $]. 
-The problem of rational points on these curves is more more difficult because they can have
+The problem of rational points on these curves is more difficult because they can have
 zero, finite or infinite rational points. 
 There are still many open questions relating their rational points. 
 
@@ -230,7 +232,7 @@ image::figures/addition.svg[the construction of addition on an elliptic curve, 4
 
 We will write latexmath:[$A'$] for the mirror image of latexmath:[$A$] along the latexmath:[$x$]-axis 
 
-If latexmath:[$A, B$], are mirror images, i.e.\  latexmath:[$B = A'$], then  
+If latexmath:[$A, B$], are mirror images, i.e.  latexmath:[$B = A'$], then  
 latexmath:[$\ell$] goes straight up, and we say the third point of
 intersection is latexmath:[$O$].
 
@@ -291,8 +293,7 @@ latexmath:[$\mathcal{E}$] is called the _rank_ of
 latexmath:[$\mathcal{E} $] and mathematicians would love to understand
 the rank better.
 
-The Birch and Swinnerton-Dyer conjecture concerns the rank of an
-elliptic curve.
+The Birch and Swinnerton-Dyer conjecture is so important because it relates the rank to other properties of the curve!
 
 [[sec:the_edsac_computer]]
 Computers
@@ -305,10 +306,11 @@ Cambridge computer lab where he spend ten years. Here he had access to
 the labs’ fancy new toy, the EDSAC II computer. 
 
 Had he not been rejected and forced to take the position in the computer lab, he would have never been able to come up with the conjecture cite:[swinnertondyerInterviewSirPeter2008].
-research position for mathematics in Trinity College.
+When live gives lemmons, ... 
+Nevertheless he kept his research position for mathematics at Trinity College.
 
 [quote, Peter Swinnerton-Dyer, Interview in Cambridge]
-Had I not been there I don't think the Birch Swinnerton-Dyer conjectures would ever have happened because they couldn't have been made credible without the use of a computer
+Had I not been there I don't think the Birch Swinnerton-Dyer conjectures would ever have happened because they couldn't have been made credible without the use of a computer.
 
 At Trinity he met Bryan Birch, another mathematics research fellow. They
 teamed up to use the EDSAC II computer to compute a lot of explicit
