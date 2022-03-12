@@ -28,6 +28,8 @@ However I do hope that there is enough history throughout the text to keep a gen
 The main sources of this document are the talk by Manjul Bhargava cite:[manjulbhargavaWhatBirchSwinnertonDyer2016] and the problem description by the Clay Mathematics Institute cite:[wilesBIRCHSWINNERTONDYERCONJECTURE] for the mathematical details, chapter 14 of _Visions of Infinity_ by Ian Steward cite:[stewartVisionsInfinityGreat2014] and the biography of Diophantus cite:[DiophantusBiography] for historical facts. 
 When another source is used it, it will be indicated in the text. 
 
+*Warning:* Because of the technical nature of this material I was forced to balance mathematical details and accuracy with clarity. For this text I found clarity to be more important, but to achieve that I had to shove some technical but important details under the rug. So please do not take any of the mathematical statements as fact. However, there are some excellent sources in the bibliography for further reading. 
+
 '''
 
 
