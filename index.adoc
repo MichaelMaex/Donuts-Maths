@@ -306,7 +306,7 @@ Cambridge computer lab where he spend ten years. Here he had access to
 the labs’ fancy new toy, the EDSAC II computer. 
 
 Had he not been rejected and forced to take the position in the computer lab, he would have never been able to come up with the conjecture cite:[swinnertondyerInterviewSirPeter2008].
-When live gives lemmons, ... 
+When life gives lemmons, ... 
 Nevertheless he kept his research position for mathematics at Trinity College.
 
 [quote, Peter Swinnerton-Dyer, Interview in Cambridge]
@@ -359,7 +359,7 @@ effective way is to simply try each of the latexmath:[$p^2$]
 possibilities for latexmath:[$(x, y)$]. Birch and Swinnerton-Dyer used a
 more efficient method.
 
-.The latexmath:[${\mathbb{F}}_p$] points of latexmath:[$y^2 = x^3 - 4x + 1$]
+.The latexmath:[${\mathbb{F}}_{11}$] points of latexmath:[$y^2 = x^3 - 4x + 1$]
 image::figures/finite_curve.svg[image,350,align="center"]
 
 It is no coincidence that in the curve above there are latexmath:[$11$]
